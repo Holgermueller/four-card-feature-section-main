@@ -74,3 +74,33 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 600px) {
+  .sub {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 31px;
+  }
+
+  .copy {
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container:first-child,
+  .container:last-child {
+    align-items: center;
+  }
+
+  .card {
+    margin: 5%;
+  }
+}
