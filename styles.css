@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: hsl(0, 0%, 98%);
+  color: hsl(260, 2%, 65%);
 }
 
 main {
@@ -10,11 +11,39 @@ main {
   margin: 5% auto;
 }
 
+.sub,
+.copy,
+h1 {
+  text-align: center;
+}
+
+.sub {
+  font-weight: 200;
+  font-size: 24px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  color: hsl(234, 12%, 34%);
+}
+
 .card {
   background-color: hsl(0, 100%, 100%);
   border-radius: 15px;
   padding: 16px 24px;
   margin-bottom: 24px;
+  box-shadow: 0 10px 10px hsl(214, 40%, 89%);
+}
+
+.card h2 {
+  color: hsl(240, 8%, 37%);
+}
+
+.card p {
+  font-size: 14px;
 }
 
 #supervisor {
@@ -33,8 +62,9 @@ main {
   border-top: 4px solid hsl(212, 86%, 64%);
 }
 
-.card img {
-  margin-right: auto;
+img {
+  display: block;
+  margin-left: auto;
 }
 
 .attribution {
