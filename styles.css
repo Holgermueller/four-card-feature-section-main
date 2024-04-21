@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: hsl(0, 0%, 98%);
   color: hsl(260, 2%, 65%);
@@ -32,10 +33,11 @@ h1 {
 
 .card {
   background-color: hsl(0, 100%, 100%);
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 16px 24px;
   margin-bottom: 24px;
   box-shadow: 0 10px 10px hsl(214, 40%, 89%);
+  display: g;
 }
 
 .card h2 {
@@ -64,6 +66,7 @@ h1 {
 
 img {
   display: block;
+  margin-top: 32px;
   margin-left: auto;
 }
 
