@@ -45,4 +45,3 @@ This project forced me to get some practice with CSS Grid. I think this was the 
 
 - Website - [Holger Mueller](https://holgermueller.github.io/portfolio/)
 - Frontend Mentor - [@Holgermueller](https://www.frontendmentor.io/profile/Holgermueller)
-- Github - [Holgermueller](https://github.com/Holgermueller)
